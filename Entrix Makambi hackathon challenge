@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STOCK ACADEMY</title>
+  <link rel="stylesheet" href="CSS STYLES/styleshac.css">
+</head>
+<body>
+  <header>
+    Dream Code Academy
+  </header>
+  <h1>Welcome to ACodemy!</h1>
+  <p><strong>Students</strong></p>
+  <div id="Students">
+    <a href="file:///C:/Users/PC/Documents/.html/students%20page.html" target="_blank">Click here</a>
+  </div>
+  <img src="teacher.jpg" alt="main picture">
+  <form>
+    <input type="hidden" id="sessionId" name="sessionId" value="your_session_id_here">
+    <fieldset>
+      <legend><strong>Students Information</strong></legend>
+      <p>
+        <label for="name">Name:</label></p>
+        <p><input type="text" id="name" name="name" placeholder=" Brian Wote" required>
+      </p>
+      <p><label for="email">Email Address:</label></p>
+        <p><input type="text" id="email" name="mail" placeholder="1234@gmail.com" required></p>
+       <p> <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="number" placeholder="+254712345453" required>
+      </p>
+      <p>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="18 years" required>
+      </p>
+      <p>
+        <label>Gender:</label>
+  <div>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label>
+  </div>
+      </p>
+      <p>
+        <label for="course">Subjects:</label></p>
+        <p><select id="course" name="course" required>
+          <option value="Python">Python</option>
+          <option value="Dart with flutter">Dart with flutter</option>
+          <option value="Web Eevelopment">Web Eevelopment</option>
+          <option value="Software Engineering">Software Engineering</option>
+          <option value="Java Script">Java Script</option>
+          <option value="Database mySQL">Database mySQL</option>
+          <option value="PHP">PHP</option>
+        </select>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend><strong>Password</strong></legend>
+      <p>
+        <input type="password" id="password" name="password" placeholder="*********" required>
+      </p>
+      <div class="button-container">
+        <button type="submit" class="register-button">Register</button>
+        <button type="reset" class="cancel-button">Cancel</button>
+      </div>
+    
+    </fieldset>
+  </form>
+</body>
+</html>
